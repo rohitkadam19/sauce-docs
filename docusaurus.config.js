@@ -387,8 +387,4 @@ if (!process.env.SAUCE_DOCS_DEV) {
   }
 }
 
-<<<<<<< HEAD
 module.exports = docusaurusConfig;
-=======
-module.exports = docusaurusConfig;
->>>>>>> 2019fcc755ab29002e7904beacfd0676ec494bba

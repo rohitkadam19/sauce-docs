@@ -13,9 +13,9 @@ const docusaurusConfig = {
       trackingID: 'UA-6735579-1',
     },
     hideableSidebar: true,
-    prism: {
-      additionalLanguages: ['java', 'ruby', 'csharp', 'bash', 'powershell', 'python'],
-    },
+    // prism: {
+    //   additionalLanguages: ['java', 'ruby', 'csharp', 'bash', 'powershell', 'python'],
+    // },
     /* Dark and Light Mode Config */
     colorMode: {
       defaultMode: 'light',
@@ -346,6 +346,23 @@ const docusaurusConfig = {
           customCss: require.resolve('./src/css/custom.css')
         },
       },
+    ],
+    [
+      'redocusaurus',
+      {
+        specs: [{
+          spec: './static/oas/vdc/jobs.yml',
+          routePath: '/dev/api/jobs/',
+        },
+        {
+          spec: './static/oas/rdc.json',
+          routePath: 'dev/api/rdc/',
+        }
+        ],
+        theme: {
+          customCss: require.resolve('./src/css/custom.css')
+        }
+      }
     ],
   ],
   themes: [

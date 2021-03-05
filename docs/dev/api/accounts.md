@@ -5,7 +5,7 @@ sidebar_label: Accounts
 description: Manage all aspects of your Sauce Labs organization, team, and member accounts.
 ---
 
-The Sauce Labs REST API exposes the following methods related to individual and team account configuration and monitoring.
+The Sauce Labs REST API exposes the following methods related to individual and team account configurations and monitoring.
 
 ## Individual Account Methods
 
